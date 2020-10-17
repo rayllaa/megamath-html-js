@@ -1,0 +1,71 @@
+h1{
+	font-family: "Corbel";
+}
+header, footer{
+    padding: 4px;
+	padding-left: 20px;
+    color: white;
+    background-color: rgb(38,35,73);
+    text-align: left;   /* clear: right; rgb(157,126,239); rgb(133,95,235);*/
+}
+ 
+body{
+	text-align: center;
+	color: rgb(38,35,73);
+	border-left-color: black;
+	border-left-width: 10px;
+	font-family: "Arial";	 
+	margin: 0px;
+	height: 100%;
+}
+
+header{
+	margin-bottom: 62px;
+	font-family: 
+}
+
+a{
+	color: white;
+}
+
+footer{
+	padding: 20px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+input{
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-style: outset;
+	width: 140px;
+	height: 30px;	
+	display: inline-block;
+}
+
+.botao{
+	font-family: "Open Sans";
+	color: rgb(38,35,73);
+	text-align: center;
+	background-color: white;
+	border-color: rgb(38,35,73);
+	box-shadow: 1px 1px 2px  rgb(38,35,73); /*Sommbra*/
+	width: 150px;
+	height: 30px;
+	margin-top: 20px;
+	margin-bottom: 37px;
+}
+
+hr{
+	border-color: rgb(38,35,73);
+	border-style: dotted;
+}
+
+select{
+	width: 42px;
+	height: 30px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-style: outset;
+}

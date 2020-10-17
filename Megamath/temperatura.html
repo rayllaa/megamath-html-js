@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset = utf-8;>
+		<title>Conversor de temperatura</title>
+		<link rel="stylesheet" href="css/temperatura.css"> 
+		<link rel="icon" href="img/logo.icon" type="image/x-icon"/>
+	</head>		
+	<body>
+		<header>
+			<h1>Megamath</h1>
+			
+			<div id="link_principal">
+				<a href="principal.html">Início</a> 
+			</div>
+		</header>
+			<h1>Conversor de temperatura</h1>
+		<hr> 	
+			<h4><em>Faça conversões de forma fácil e rápida sem precisar quebrar a cabeça!</em></h4>
+		<hr>	
+		<br>
+		<br>	
+		<form method="get"> 
+		<input type="number" id="temp1">
+		<select id="tt">
+			<option  value="C">Celsius</option>
+			<option  value="F">Fahrenheit</option>
+			<option  value="K">Kelvin</option>
+		</select> 
+
+		<b>	&#x21D2;</b>
+		<input  type="output" id="temp2" readonly>	
+		<select id="tt2">
+			<option  value="C">Celsius</option>
+			<option  value="F">Fahrenheit</option>
+			<option  value="K">Kelvin</option>
+		</select> 
+		 <br>
+		 <br>
+		 <input type="button" id="btConverter" value="Converter" class="botao" onclick="codigo(1);">
+		 <input type="reset" value="Limpar" class="botao">
+		</form>       
+		<footer> </footer>		   
+	</body>  
+   <script  src="js/principal.js"></script>
+</html>

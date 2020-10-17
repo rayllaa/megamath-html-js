@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>Conversor de Moeda</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/moeda.css">
+		<link rel="icon" href="img/logo.icon" type="image/x-icon"/>
+	</head>
+
+	<body>
+		<header>
+			<h1>Megamath</h1>
+			<div id="link_principal">
+				<a href="principal.html">Início</a> 
+			</div>
+		</header>
+
+	    <h1>Conversor de Moeda</h1>
+	    <hr>
+	    <h4><em>Digite o valor para converter para outra moeda!</em></h4>
+	    <hr>
+	    <br>
+		<form>
+			<select id="s1">
+				<option value="real">R$</option>
+				<option value="dolar">$</option>
+				<option value="euro">€</option>
+			</select>
+			<input type="number" id="valor">
+			<b>&#x21D2;</b>
+			<select id="s2">
+				<option value="real">R$</option>
+				<option value="dolar">$</option>
+				<option value="euro">€</option>
+			 </select>
+			 <input type="output" id="recebe_valor" readonly>
+			<br>
+			<br>
+			<input type="button" value="Converter" id="btmoeda" class="botao" onclick="codigo(4);">
+			<input type="reset" value="Limpar" class="botao">
+		</form>
+		<footer> </footer>
+	</body>
+<script src="js/principal.js"></script>
+</html>

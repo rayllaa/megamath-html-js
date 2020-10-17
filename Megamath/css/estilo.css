@@ -1,0 +1,81 @@
+h1{
+	font-family: "Corbel";
+}
+header, footer{
+	padding: 4px;
+	padding-left: 20px;
+	color: white;
+	background-color: rgb(38,35,73);
+	/*  azul escuro rgb(38,35,73);  -> purpura rgb(59,91,165);*/	
+}
+
+body{
+	text-align: center;
+	margin: 0px;
+	font-family: "Arial";
+	height: 100%;
+}
+
+header{
+	margin-bottom: 100px;
+	text-align: left;	
+}
+
+footer{
+	padding: 20px;
+	position: fixed; /*Colocar position: fixed,bottom: 0 e width 100%// e no body height: 100%;(não precisa acho)*/
+	bottom: 0;
+	width: 100%;  		
+}
+
+a{
+	color: rgb(38,35,73);
+	text-decoration: none;
+}
+
+p, h4{
+	color: rgb(38,35,73);
+}
+
+div{
+	border-radius:50%;/* Forma o círculo*/
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%; 
+	background:rgb(38,35,73);
+	color: white; /*Cor da fonte dentro circulo*/
+	width:150px;	
+	height:150px; /*Comprimento do circulo*/
+	line-height:150px; /*enquadramento da fonte - pra ficar no meio deve ter a mesma medida da largura e altura do circulo*/
+	text-align:center;
+	font-size:12px; /*tamanho da fonte*/
+	display: inline-block;
+	margin-top: 60px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+img{
+	width: 100px;
+	margin-top: 25px;
+}
+
+.c{
+	background-color: white; 
+	color: rgb(38,35,73);
+	margin-top: 0px;
+}
+
+table{
+	margin: auto; /*Centraliza a tabela*/
+	color: rgb(38,35,73);
+	font-family: "Corbel";
+	margin-bottom: 100px;
+}
+
+td{
+	margin-right: 20px;
+}
+
+#nomes{
+	padding-right: 10px;
+}

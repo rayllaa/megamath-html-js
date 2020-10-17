@@ -1,0 +1,117 @@
+h1{
+	font-family: "Corbel";
+}
+header, footer{
+    padding: 4px;
+	padding-left: 20px;
+    color: white;
+    background-color: rgb(38,35,73);
+    text-align: left; 
+	margin-bottom: 0px;
+}
+ 
+footer{
+	padding: 20px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+body{
+	text-align: center;
+	color: rgb(38,35,73);
+	border-left-color: black;
+	border-left-width: 10px;
+	font-family: "Arial";	 
+	margin: 0px;
+	height: 100%;
+}
+
+.div_borda{
+	margin-top: 100px;
+	margin-left: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;	
+	display: inline-block;
+	border: double;
+}
+
+#quadrado{
+	padding-top: 5px;
+}
+
+input{
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-style: outset;	
+	width: 200px;
+	height: 35px;	
+}
+
+.botao{
+	font-family: "Open Sans";
+	color: rgb(38,35,73);
+	text-align: center;
+	background-color: white;
+	border-color: rgb(38,35,73);
+	box-shadow: 1px 1px 2px  rgb(38,35,73); /*Sommbra*/
+	width: 180px;
+	height: 30px;
+	margin-top: 20px;	
+}
+
+a{
+	color: white;
+}
+
+p{
+	padding-top: 10px;
+	padding-left: 5px;
+	text-align: center;
+	width: 100px;
+	color: white;
+}
+
+h4{
+	margin-top: 80px;
+}
+
+.s{
+	display: block;
+	border-style: outset;	
+	width: 200px;
+	height: 35px;
+	background-color:white;
+	color: rgb(38,35,73);
+	animation: pulse 1.5s infinite;
+} 
+
+#secao{
+	background-color: rgb(38,35,73); /*purpura rgb(86,80,165)*/
+	width: 200px;
+	height: 100%;
+	position: fixed;
+}
+
+.linkprincipal{
+	display: inline-block;
+	text-align: right;
+}
+
+.area_links{
+	border-radius:10%;/* Forma o círculo*/
+	/*-moz-border-radius:50%;
+	-webkit-border-radius:50%; */
+	background:rgb(38,35,73);
+	color: white; /*Cor da fonte dentro circulo*/
+	width:150px;	
+	height:80px; /*Comprimento do circulo*/
+	line-height:80px; /*enquadramento da fonte - pra ficar no meio deve ter a mesma medida da largura e altura do circulo*/
+	text-align:center;
+	font-size:12px; /*tamanho da fonte*/
+	display: inline-block;
+	/*margin-bottom:170px;*/
+	margin-top: 80px;
+	margin-right: 20px;
+}

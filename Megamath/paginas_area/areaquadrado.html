@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Calcular Área</title>
+		<link rel="stylesheet" href="css/area.css">
+		<link rel="icon" href="../img/logo.icon" type="image/x-icon"/>
+	</head>
+	
+	<body>
+		<header>
+			<h1>Megamath</h1> 
+			<a class="link_principal" href="../principal.html">Início</a> 
+		</header>
+		
+		<div id="secao">
+			<p>Calcular Área</p>
+			 <a href="areacirculo.html"><input type="button" value="Circulo" class="s"></a>
+			 <a href="arearetangulo.html"><input type="button" value="Retângulo" class="s"></a> 
+			  <a href="areatriangulo.html"><input type="button" value="Triângulo" class="s"></a>
+			
+			<p>Outros</p>
+			<a href="../temperatura.html"><input type="button" value="Conversor de Temperatura" class="s"></a>
+			<a href="../moeda.html"><input type="button" value="Conversor de Moeda" class="s"></a>
+			<a href="../tabuada.html"><input type="button" value="Calcular tabuada" class="s"></a>
+		</div>
+			
+		<form>	
+			<div id="quadrado"  class="div_borda">
+				<h3>Área do Quadrado</h3>
+				<br>
+				Lado <input type="number" id="lq">
+				<br>
+				<br>
+				<br>
+				<br>
+				<b>Área</b>  <input type="output" id="aq" readonly>
+				<br>
+			</div>	
+			<br>
+			<br>
+			<input type="button" id="btq" value="Calcular" class="botao" onclick="codigo(2);">
+			<input type="reset" value="Limpar" class="botao">
+		</form>
+		<footer> </footer>
+	</body>
+	<script src="../js/principal.js"></script>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Tabuada</title>
+		<link rel="stylesheet" href="css/tabuada.css">
+		<link rel="icon" href="img/logo.icon" type="image/x-icon"/>
+	</head>
+	
+	<body> 
+		<header>
+			<h1>Megamath</h1>
+			<div id="link_principal">
+				<a href="principal.html">Início</a> 
+			</div>
+		</header>
+		
+		<h1>Tabuada</h1>
+		<br>
+		<em>Digite o número que deseja calcular a tabuada e o último número que este deverá ser calculado.</em>
+		<br>
+		<br>
+		<br>
+		<form>
+			<input type="text" id="tb1">
+			<select id="sl">
+				<option value="+">+</option>
+				<option  value="-">-</option>
+				<option  value="x">x</option>
+				<option  value="/">/</option>
+			</select>
+			<input type="text" id="tb2"> 
+		<br>
+		<br>
+			<input type="button" id="bto" value="Calcular" class="botao" onclick="codigo(3);">
+			<input type="reset" value="Limpar" class="botao">
+		</form>
+		<br>
+		<br>
+		
+		<div id="tb">	 
+		</div>
+		<footer> </footer>
+	</body>
+ <script src="js/principal.js"></script>
+</html>

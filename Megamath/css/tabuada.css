@@ -1,0 +1,77 @@
+h1{
+	font-family: "Corbel";
+}
+
+header, footer{
+    padding: 4px;
+	padding-left: 20px;
+    color: white;
+    background-color: rgb(38,35,73);
+    text-align: left; 
+ }
+ 
+header{
+	margin-bottom: 80px;
+}
+	
+footer{
+	padding: 20px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+	
+body{
+	text-align: center;
+	color: rgb(38,35,73);
+	border-left-color: black;
+	border-left-width: 10px;
+	font-family: "Arial";	 
+	margin: 0px;
+	height: 100%;
+}
+  
+a{
+	color: white;
+}
+
+input{
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-style: outset;	
+	width: 100px;
+	height: 35px;	
+}
+
+select{
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-style: outset;	
+	width: 35px;
+	height: 35px;
+}
+
+.botao{
+	font-family: "Open Sans";
+	color: rgb(38,35,73);
+	text-align: center;
+	background-color: white;
+	border-color: rgb(38,35,73);
+	box-shadow: 1px 1px 2px  rgb(38,35,73); /*Sommbra*/
+	width: 170px;
+	height: 30px;
+	margin-top: 20px;
+}
+
+table, tr, td{
+	border-color: rgb(38,35,73);
+	margin-left: auto;
+	margin-right: auto;
+	width: 230px;
+	border-width: 1px; 
+	border-style: dotted;
+	margin-bottom: 100px;
+	border-collapse: collapse; /*Elimina espaçamento entre as bordas de cada célula*/
+}
+	
+	
